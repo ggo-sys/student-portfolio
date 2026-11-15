@@ -366,7 +366,8 @@ tbody tr:hover { background: #f9fbfd; }
  padding: 30px;
 }
 .media-block h2.media-block h3 { color: #fff; }
-.media-block audio { width: 100%; }
+.media-block audio,
+.media-block video { width: 100%; border-radius: 8px; display: block; }
 
 /* ---------- 11. Academic planner ---------- */
 .planner { display: grid; grid-template-columns: 1fr; gap: 26px; }
