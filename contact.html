@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Your Name — Student Portfolio</title>
+  <meta name="description" content="Contact form with JavaScript validation.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">YN</span>
+        <span>
+          Your Name
+          <small>Student Portfolio</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        &#9776;
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html">Planner</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="page-head">
+        <span class="eyebrow">Contact</span>
+        <h1>Get in touch</h1>
+        <p class="lead muted">
+          Four fields, all required. The form is checked by JavaScript before anything is
+          sent: no field may be empty, the e-mail must be shaped like an address, and the
+          phone number may contain digits only.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+
+        <!-- ================= FORM ================= -->
+        <section aria-labelledby="formTitle">
+          <h2 id="formTitle" class="sr-only">Contact form</h2>
+
+          <form class="form-card" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name">
+              <span class="error-msg" id="nameError" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email">
+              <span class="error-msg" id="emailError" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" placeholder="08012345678" autocomplete="tel" maxlength="11">
+              <span class="error-msg" id="phoneError" role="alert"></span>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="What would you like to say?"></textarea>
+              <span class="error-msg" id="messageError" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn">Send message</button>
+
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </section>
+
+        <!-- ================= SIDE INFO ================= -->
+        <aside aria-labelledby="detailsTitle">
+          <div class="card">
+            <h2 id="detailsTitle" style="font-size:1.2rem">Other details</h2>
+            <ul class="info-list" style="margin-bottom:0">
+              <li><strong>Email</strong><span>you@example.com</span></li>
+              <li><strong>Department</strong><span>Cybersecurity</span></li>
+              <li><strong>Level</strong><span>100</span></li>
+              <li><strong>Institution</strong><span>MIVA Open University</span></li>
+            </ul>
+          </div>
+
+          <div class="card" style="margin-top:20px">
+            <h3>Why a form like this needs validation</h3>
+            <p class="muted" style="margin-bottom:0">
+              Server-side validation is the one that matters, because anything in the browser
+              can be bypassed. Client-side validation exists to catch mistakes early, before
+              the user wastes a round trip — which is the same request-and-response logic the
+              course covers in weeks 2 and 10.
+            </p>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p style="margin:0">&copy; <span id="year">2026</span> Your Name — COS 106 Practical Term Project</p>
+      <p style="margin:0">
+        <a href="contact.html">Contact</a> ·
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>

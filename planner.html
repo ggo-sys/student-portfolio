@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Academic Planner | Your Name — Student Portfolio</title>
+  <meta name="description" content="An interactive study planner: add tasks, mark them complete and delete them.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-bar">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">YN</span>
+        <span>
+          Your Name
+          <small>Student Portfolio</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+        &#9776;
+      </button>
+
+      <nav aria-label="Main navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="planner.html" aria-current="page">Planner</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+
+      <div class="page-head">
+        <span class="eyebrow">Academic planner</span>
+        <h1>My study plan</h1>
+        <p class="lead muted">
+          Add a task, tick it off when it is done, or delete it. Everything is kept in an
+          array in <code>js/planner.js</code> and re-drawn from that array after each change.
+        </p>
+      </div>
+
+      <div class="planner">
+
+        <!-- ================= ADD A TASK ================= -->
+        <form class="planner-form" id="taskForm" autocomplete="off">
+          <label for="taskInput" class="sr-only">New task</label>
+          <input
+            type="text"
+            id="taskInput"
+            name="task"
+            placeholder="What do you need to do? e.g. Revise CSS box model"
+            maxlength="120"
+            required>
+          <button type="submit" class="btn">Add task</button>
+        </form>
+
+        <!-- ================= STATS ================= -->
+        <div class="task-stats" aria-live="polite">
+          <span>Total: <strong id="statTotal">0</strong></span>
+          <span>Done: <strong id="statDone">0</strong></span>
+          <span>Remaining: <strong id="statLeft">0</strong></span>
+        </div>
+
+        <!-- ================= TASK LIST ================= -->
+        <section aria-labelledby="listTitle">
+          <h2 id="listTitle" class="sr-only">Tasks</h2>
+
+          <div class="empty-state" id="emptyState">
+            <p style="margin:0"><strong>Nothing here yet.</strong></p>
+            <p style="margin:6px 0 0">Add your first task using the box above.</p>
+          </div>
+
+          <ul class="task-list" id="taskList"></ul>
+        </section>
+
+        <section aria-labelledby="tipsTitle">
+          <div class="card">
+            <h2 id="tipsTitle" style="font-size:1.2rem">How this page works</h2>
+            <ul class="mt-0">
+              <li>Tasks are stored in a JavaScript array, and the list is rebuilt from it on every change.</li>
+              <li>The <code>add</code>, <code>toggle</code> and <code>delete</code> actions are each a separate function.</li>
+              <li>Clicking the checkbox marks a task complete; the Delete button removes it permanently.</li>
+              <li>Tasks survive a page refresh because they are saved to <code>localStorage</code>.</li>
+            </ul>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p style="margin:0">&copy; <span id="year">2026</span> Your Name — COS 106 Practical Term Project</p>
+      <p style="margin:0">
+        <a href="contact.html">Contact</a> ·
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/planner.js"></script>
+</body>
+</html>
