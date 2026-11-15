@@ -1,165 +1,165 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects | Gift Goodnews Oguejiofor — Student Portfolio</title>
-  <meta name="description" content="Three sample projects built while studying Introduction to Web Technologies.">
-  <link rel="stylesheet" href="css/style.css">
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Projects | Gift Goodnews Oguejiofor, Student Portfolio</title>
+ <meta name="description" content="Three sample projects built while studying Introduction to Web Technologies.">
+ <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="container nav-bar">
-      <a class="brand" href="index.html">
-        <span class="mark" aria-hidden="true">GO</span>
-        <span>
-          Gift Oguejiofor
-          <small>Student Portfolio</small>
-        </span>
-      </a>
+ <header class="site-header">
+  <div class="container nav-bar">
+   <a class="brand" href="index.html">
+    <span class="mark" aria-hidden="true">GO</span>
+    <span>
+     Gift Oguejiofor
+     <small>Student Portfolio</small>
+    </span>
+   </a>
 
-      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
-        &#9776;
-      </button>
+   <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu">
+    &#9776;
+   </button>
 
-      <nav aria-label="Main navigation">
-        <ul class="nav-links" id="navLinks">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="projects.html" aria-current="page">Projects</a></li>
-          <li><a href="planner.html">Planner</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+   <nav aria-label="Main navigation">
+    <ul class="nav-links" id="navLinks">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About Me</a></li>
+     <li><a href="projects.html" aria-current="page">Projects</a></li>
+     <li><a href="planner.html">Planner</a></li>
+     <li><a href="contact.html">Contact</a></li>
+    </ul>
+   </nav>
+  </div>
+ </header>
 
-  <main>
-    <div class="container">
+ <main>
+  <div class="container">
 
-      <div class="page-head">
-        <span class="eyebrow">Projects</span>
-        <h1>Three things I have built</h1>
-        <p class="lead muted">
-          Each of these came out of a lab or a lecture exercise this semester. Descriptions
-          say what the project is, what I actually did, and what I would change.
-        </p>
-      </div>
+   <div class="page-head">
+    <span class="eyebrow">Projects</span>
+    <h1>Three things I have built</h1>
+    <p class="lead muted">
+     Each of these came out of a lab or a lecture exercise this semester. Descriptions
+     say what the project is, what I actually did, and what I would change.
+    </p>
+   </div>
 
-      <section class="project-grid" aria-label="Project list">
+   <section class="project-grid" aria-label="Project list">
 
-        <!-- ---------- PROJECT 1 ---------- -->
-        <article class="project">
-          <!-- PLACEHOLDER: replace with a screenshot of your own output -->
-          <img src="images/project-1.svg" alt="Screenshot of the student registration form project" width="800" height="500">
-          <div class="body">
-            <h2 style="font-size:1.25rem">Student Registration Form</h2>
-            <ul class="tags" aria-label="Technologies used">
-              <li>HTML</li>
-              <li>Forms</li>
-              <li>Accessibility</li>
-            </ul>
-            <p>
-              A registration form built for the creating-forms lab: name, password, e-mail,
-              phone, sex, date of birth, languages spoken and address. Every input is bound
-              to a <code>&lt;label&gt;</code> with a matching <code>for</code>/<code>id</code>
-              pair, and the date fields use three linked selects rather than a free-text box.
-            </p>
-            <p>
-              <strong>What I learned:</strong> the <code>name</code> attribute is what the
-              server actually receives, and a missing one means the field is silently dropped.
-            </p>
-            <div class="links">
-              <a href="#" aria-label="View the registration form repository on GitHub">Repository</a>
-              <a href="#" aria-label="Open the registration form live demo">Live demo</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- ---------- PROJECT 2 ---------- -->
-        <article class="project">
-          <img src="images/project-2.svg" alt="Screenshot of the CSS-styled registration page" width="800" height="500">
-          <div class="body">
-            <h2 style="font-size:1.25rem">Styled Registration Page</h2>
-            <ul class="tags" aria-label="Technologies used">
-              <li>CSS</li>
-              <li>External stylesheet</li>
-              <li>Responsive</li>
-            </ul>
-            <p>
-              The form above, restyled with a single external stylesheet. The layout uses
-              CSS Grid for the two-column form body and Flexbox for the button row, and it
-              collapses to one column below 760 pixels. The box model is set deliberately:
-              padding inside the input, border on it, margin between fields.
-            </p>
-            <p>
-              <strong>What I learned:</strong> why inline styles are a trap — one page-level
-              change beat a hundred <code>style=</code> attributes.
-            </p>
-            <div class="links">
-              <a href="#" aria-label="View the styled registration page repository on GitHub">Repository</a>
-              <a href="#" aria-label="Open the styled registration page live demo">Live demo</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- ---------- PROJECT 3 ---------- -->
-        <article class="project">
-          <img src="images/project-3.svg" alt="Screenshot of the task manager application" width="800" height="500">
-          <div class="body">
-            <h2 style="font-size:1.25rem">Task Manager</h2>
-            <ul class="tags" aria-label="Technologies used">
-              <li>JavaScript</li>
-              <li>DOM</li>
-              <li>Events</li>
-              <li>Arrays</li>
-            </ul>
-            <p>
-              A to-do list written in vanilla JavaScript: type a task, press Add, and it
-              appears with a checkbox and a Delete button. Tasks live in an array and are
-              re-rendered from that array, so the screen is always a picture of the data
-              rather than a set of loose elements.
-            </p>
-            <p>
-              <strong>What I learned:</strong> that a Delete button created inside the loop
-              needs the element passed to it — which is why it uses
-              <code>onclick="deleteTask(this)"</code>.
-            </p>
-            <div class="links">
-              <a href="#" aria-label="View the task manager repository on GitHub">Repository</a>
-              <a href="#" aria-label="Open the task manager live demo">Live demo</a>
-            </div>
-          </div>
-        </article>
-
-      </section>
-
-      <!-- ================= EXTRA CONTEXT ================= -->
-      <section aria-labelledby="nextTitle" style="margin-top:64px">
-        <div class="card">
-          <h2 id="nextTitle" style="font-size:1.3rem">What I would build next</h2>
-          <ul class="mt-0">
-            <li>Persist the planner's tasks in a real database rather than the browser.</li>
-            <li>Add authentication so one portfolio can serve several students.</li>
-            <li>Replace the hand-drawn screenshots with real device captures.</li>
-          </ul>
-        </div>
-      </section>
-
-    </div>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <p style="margin:0">&copy; <span id="year">2026</span> Gift Goodnews Oguejiofor — COS 106 Practical Term Project</p>
-      <p style="margin:0">
-        <a href="contact.html">Contact</a> ·
-        <a href="https://github.com/ggo-sys/student-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <!-- ---------- PROJECT 1 ---------- -->
+    <article class="project">
+     <!-- PLACEHOLDER: replace with a screenshot of your own output -->
+     <img src="images/project-1.svg" alt="Screenshot of the student registration form project" width="800" height="500">
+     <div class="body">
+      <h2 style="font-size:1.25rem">Student Registration Form</h2>
+      <ul class="tags" aria-label="Technologies used">
+       <li>HTML</li>
+       <li>Forms</li>
+       <li>Accessibility</li>
+      </ul>
+      <p>
+       A registration form built for the creating-forms lab: name, password, e-mail,
+       phone, sex, date of birth, languages spoken and address. Every input is bound
+       to a <code>&lt;label&gt;</code> with a matching <code>for</code>/<code>id</code>
+       pair, and the date fields use three linked selects rather than a free-text box.
       </p>
-    </div>
-  </footer>
+      <p>
+       <strong>What I learned:</strong> the <code>name</code> attribute is what the
+       server actually receives, and a missing one means the field is silently dropped.
+      </p>
+      <div class="links">
+       <a href="#" aria-label="View the registration form repository on GitHub">Repository</a>
+       <a href="#" aria-label="Open the registration form live demo">Live demo</a>
+      </div>
+     </div>
+    </article>
 
-  <script src="js/main.js"></script>
+    <!-- ---------- PROJECT 2 ---------- -->
+    <article class="project">
+     <img src="images/project-2.svg" alt="Screenshot of the CSS-styled registration page" width="800" height="500">
+     <div class="body">
+      <h2 style="font-size:1.25rem">Styled Registration Page</h2>
+      <ul class="tags" aria-label="Technologies used">
+       <li>CSS</li>
+       <li>External stylesheet</li>
+       <li>Responsive</li>
+      </ul>
+      <p>
+       The form above, restyled with a single external stylesheet. The layout uses
+       CSS Grid for the two-column form body and Flexbox for the button row, and it
+       collapses to one column below 760 pixels. The box model is set deliberately:
+       padding inside the input, border on it, margin between fields.
+      </p>
+      <p>
+       <strong>What I learned:</strong> why inline styles are a trap, one page-level
+       change beat a hundred <code>style=</code> attributes.
+      </p>
+      <div class="links">
+       <a href="#" aria-label="View the styled registration page repository on GitHub">Repository</a>
+       <a href="#" aria-label="Open the styled registration page live demo">Live demo</a>
+      </div>
+     </div>
+    </article>
+
+    <!-- ---------- PROJECT 3 ---------- -->
+    <article class="project">
+     <img src="images/project-3.svg" alt="Screenshot of the task manager application" width="800" height="500">
+     <div class="body">
+      <h2 style="font-size:1.25rem">Task Manager</h2>
+      <ul class="tags" aria-label="Technologies used">
+       <li>JavaScript</li>
+       <li>DOM</li>
+       <li>Events</li>
+       <li>Arrays</li>
+      </ul>
+      <p>
+       A to-do list written in vanilla JavaScript: type a task, press Add, and it
+       appears with a checkbox and a Delete button. Tasks live in an array and are
+       re-rendered from that array, so the screen is always a picture of the data
+       rather than a set of loose elements.
+      </p>
+      <p>
+       <strong>What I learned:</strong> that a Delete button created inside the loop
+       needs the element passed to it, which is why it uses
+       <code>onclick="deleteTask(this)"</code>.
+      </p>
+      <div class="links">
+       <a href="#" aria-label="View the task manager repository on GitHub">Repository</a>
+       <a href="#" aria-label="Open the task manager live demo">Live demo</a>
+      </div>
+     </div>
+    </article>
+
+   </section>
+
+   <!-- ================= EXTRA CONTEXT ================= -->
+   <section aria-labelledby="nextTitle" style="margin-top:64px">
+    <div class="card">
+     <h2 id="nextTitle" style="font-size:1.3rem">What I would build next</h2>
+     <ul class="mt-0">
+      <li>Persist the planner's tasks in a real database rather than the browser.</li>
+      <li>Add authentication so one portfolio can serve several students.</li>
+      <li>Replace the hand-drawn screenshots with real device captures.</li>
+     </ul>
+    </div>
+   </section>
+
+  </div>
+ </main>
+
+ <footer class="site-footer">
+  <div class="container footer-inner">
+   <p style="margin:0">&copy; <span id="year">2026</span> Gift Goodnews Oguejiofor, COS 106 Practical Term Project</p>
+   <p style="margin:0">
+    <a href="contact.html">Contact</a> ·
+    <a href="https://github.com/ggo-sys/student-portfolio" target="_blank" rel="noopener noreferrer">GitHub</a>
+   </p>
+  </div>
+ </footer>
+
+ <script src="js/main.js"></script>
 </body>
 </html>
