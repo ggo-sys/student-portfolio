@@ -17,6 +17,4 @@
   </g>
   <rect x="190" y="384" width="120" height="32" rx="8" fill="#d7263d"/>
   <rect x="322" y="384" width="120" height="32" rx="8" fill="#ffffff" stroke="#cfdae6"/>
-  <text x="400" y="462" font-family="Segoe UI, Arial, sans-serif" font-size="14"
-        fill="#5b6b7d" text-anchor="middle">PLACEHOLDER — screenshot your own output</text>
 </svg>

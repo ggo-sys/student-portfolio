@@ -10,6 +10,4 @@
   <path d="M92 420c0-62 48-112 108-112s108 50 108 112z" fill="#d7263d" opacity="0.7"/>
   <text x="200" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700"
         fill="#ffffff" text-anchor="middle">YOUR PHOTO</text>
-  <text x="200" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14"
-        fill="#9fb4c9" text-anchor="middle">replace this file</text>
 </svg>
