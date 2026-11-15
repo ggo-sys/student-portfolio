@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Placeholder screenshot of the registration form">
+  <rect width="800" height="500" fill="#eef4fa"/>
+  <rect x="0" y="0" width="800" height="46" fill="#0b2239"/>
+  <circle cx="26" cy="23" r="7" fill="#d7263d"/>
+  <circle cx="50" cy="23" r="7" fill="#f0b429"/>
+  <circle cx="74" cy="23" r="7" fill="#12968a"/>
+  <rect x="150" y="90" width="500" height="350" rx="12" fill="#ffffff" stroke="#dde5ee" stroke-width="2"/>
+  <text x="400" y="132" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700"
+        fill="#0b2239" text-anchor="middle">Student Registration Form</text>
+  <g fill="#e7edf4" stroke="#cfdae6">
+    <rect x="190" y="156" width="200" height="30" rx="6"/>
+    <rect x="410" y="156" width="200" height="30" rx="6"/>
+    <rect x="190" y="206" width="420" height="30" rx="6"/>
+    <rect x="190" y="256" width="200" height="30" rx="6"/>
+    <rect x="410" y="256" width="200" height="30" rx="6"/>
+    <rect x="190" y="306" width="420" height="60" rx="6"/>
+  </g>
+  <rect x="190" y="384" width="120" height="32" rx="8" fill="#d7263d"/>
+  <rect x="322" y="384" width="120" height="32" rx="8" fill="#ffffff" stroke="#cfdae6"/>
+  <text x="400" y="462" font-family="Segoe UI, Arial, sans-serif" font-size="14"
+        fill="#5b6b7d" text-anchor="middle">PLACEHOLDER — screenshot your own output</text>
+</svg>

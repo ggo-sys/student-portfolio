@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Placeholder photograph">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#12314f"/>
+      <stop offset="1" stop-color="#0b2239"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#bg)"/>
+  <circle cx="200" cy="185" r="62" fill="#d7263d" opacity="0.9"/>
+  <path d="M92 420c0-62 48-112 108-112s108 50 108 112z" fill="#d7263d" opacity="0.7"/>
+  <text x="200" y="300" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700"
+        fill="#ffffff" text-anchor="middle">YOUR PHOTO</text>
+  <text x="200" y="330" font-family="Segoe UI, Arial, sans-serif" font-size="14"
+        fill="#9fb4c9" text-anchor="middle">replace this file</text>
+</svg>

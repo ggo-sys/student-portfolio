@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Placeholder screenshot of the styled registration page">
+  <rect width="800" height="500" fill="#f6f8fb"/>
+  <rect x="0" y="0" width="800" height="46" fill="#0b2239"/>
+  <circle cx="26" cy="23" r="7" fill="#d7263d"/>
+  <circle cx="50" cy="23" r="7" fill="#f0b429"/>
+  <circle cx="74" cy="23" r="7" fill="#12968a"/>
+  <rect x="0" y="46" width="800" height="70" fill="#12314f"/>
+  <text x="40" y="90" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700"
+        fill="#ffffff">Styled Registration</text>
+  <g fill="#dbe8f5" font-family="Segoe UI, Arial, sans-serif" font-size="13">
+    <text x="470" y="90">Home</text>
+    <text x="530" y="90">Form</text>
+    <text x="590" y="90">Contact</text>
+  </g>
+  <rect x="60" y="150" width="300" height="290" rx="12" fill="#ffffff" stroke="#dde5ee" stroke-width="2"/>
+  <rect x="440" y="150" width="300" height="120" rx="12" fill="#ffffff" stroke="#dde5ee" stroke-width="2"/>
+  <rect x="440" y="290" width="300" height="150" rx="12" fill="#12968a" opacity="0.12"/>
+  <g fill="#e7edf4" stroke="#cfdae6">
+    <rect x="82" y="176" width="256" height="26" rx="5"/>
+    <rect x="82" y="222" width="256" height="26" rx="5"/>
+    <rect x="82" y="268" width="120" height="26" rx="5"/>
+    <rect x="212" y="268" width="126" height="26" rx="5"/>
+    <rect x="82" y="314" width="256" height="58" rx="5"/>
+  </g>
+  <rect x="82" y="390" width="110" height="30" rx="7" fill="#d7263d"/>
+  <text x="400" y="470" font-family="Segoe UI, Arial, sans-serif" font-size="14"
+        fill="#5b6b7d" text-anchor="middle">PLACEHOLDER — screenshot your own styled page</text>
+</svg>
